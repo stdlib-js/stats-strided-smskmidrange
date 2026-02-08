@@ -50,7 +50,7 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-import smskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskmidrange@esm/index.mjs';
+import smskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskmidrange@v0.1.1-esm/index.mjs';
 ```
 
 #### smskmidrange( N, x, strideX, mask, strideMask )
@@ -168,7 +168,7 @@ var v = smskmidrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import smskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskmidrange@esm/index.mjs';
+import smskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smskmidrange@v0.1.1-esm/index.mjs';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float32'
